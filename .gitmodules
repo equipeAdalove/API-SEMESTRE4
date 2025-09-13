@@ -1,0 +1,6 @@
+[submodule "Back-API-SEMESTRE4"]
+	path = Back-API-SEMESTRE4
+	url = https://github.com/equipeAdalove/Back-API-SEMESTRE4.git
+[submodule "Front-API-SEMESTRE4"]
+	path = Front-API-SEMESTRE4
+	url = https://github.com/equipeAdalove/Front-API-SEMESTRE4.git
