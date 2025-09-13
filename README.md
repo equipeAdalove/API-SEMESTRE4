@@ -1,23 +1,22 @@
-<h1 align="center"> API ADS 4º Semestre</h1>
+# API 4º Semestre ADS
+
+# TecSys - AdaTech
 
 <p align="center">
-      <img src="https://github.com/equipeAdalove/API-SEMESTRE3/blob/Sprint-1/Documenta%C3%A7%C3%A3o/assets/Banner%20-%20projeto.png" alt="Adalove" width="800">
-      
-<br>
+      <img src="docs/Img/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
+      <h2 align="center"> Buzz Tech</h2>
+</p>
 
-<hr>
-<br>
-<p align = "center">
-  <a href = "#desafio"> Desafio </a>  |   
-  <a href = "#mvp"> MVP </a>  |
-  <a href ="#prototipo"> Protótipo </a>  | 
-  <a href = "#demo"> Demonstração </a>  |
-  <a href = "#sprint"> Sprints </a> |
-  <a href = "#metodologia"> Metodologia </a> |  
-  <a href = "#backlog"> Backlog do Produto </a>  | 
-  <a href = "#equipe"> Equipe </a>  |
-   <a href = "#cliente"> Cliente </a>  |     
-  <a href = "#docentes"> Docentes </a>
+<p align="center">
+  | <a href ="#desafio"> Desafio</a>  |
+  <a href ="#mvp"> Solução</a>  |   
+  <a href ="#backlog"> Backlog do Produto</a>  |
+  <a href ="#dor">DoR</a>  |
+  <a href ="#dod">DoD</a>  |
+  <a href ="#sprint"> Cronograma de Sprints</a>  |
+  <a href ="#tecnologias">Tecnologias</a> |
+  <a href ="#manual">Manual de Instalação</a>  | 
+  <a href ="#equipe"> Equipe</a> |
 </p>
 
 <h1 align="center">
@@ -53,75 +52,33 @@
 
 <img align="center" alt="Raphs-Figma" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
 
-
 </div>
-
-       
-</div>
-
-  </a>
-</h4>
-
-
-<br>
-<br>
 
 > Status do Projeto: Em andamento! ⌛
+>
+> Diretório de Documentação: [Link](docs) 📄
+
+## 🏁 Desafio: <a id="desafio"></a>
+
+O desafio proposto aos alunos da Fatec consiste no desenvolvimento de um agente de Inteligência
+Artificial capaz de elaborar a instrução de registro aduaneiro com as informações pertinentes do
+material que relacione: Part-Number, classificação fiscal, fabricante, origem do fabricante com
+endereço completo, gerando a informação da descrição do material, de forma que permita a receita
+federal entender o que é o produto e não gere dúvidas sobre o item o e não acarrete penalidades
+e/ou multas sobre o material declarado.
+
+## 🫧 MVP (Minimal Viable Product) <a id="mvp"></a>
+
+<b> 💜 AdaTech </b> tem como objetivo automatizar a criação da instrução de registro aduaneiro, garantindo que ela seja clara, completa e em conformidade com as exigências legais.
+
+---
 
 <br>
 
-## 🏁 Desafio: Plataforma Web de Acompanhamento dos Resultados de Importação e Exportação dos Estados
-<a id="desafio"></a>
-O objetivo deste projeto é desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos Estados Brasileiros no comércio exterior, com base nos dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Essa ferramenta fornecerá aos tomadores de decisão dados claros e acessíveis, permitindo a identificação de municípios que estejam em ascensão, estagnação ou declínio no mercado internacional.<br>
-<br>
+## ✨ Protótipo da Aplicação
 
-## 🫧 MVP (Minimal Viable Product) 
-<a id="mvp"></a>
-<div>
-<b> 💜 AdaTrade </b> é uma plataforma que permitirá que <b>economistas, gestores públicos e empresas </b> acompanhem e analisem o desempenho dos estados brasileiros no comércio exterior de maneira eficiente e acessível.
-<br>
-Descrição do Projeto: A plataforma web visa organizar e estruturar os dados de comércio exterior brasileiro, permitindo o acompanhamento detalhado do desempenho dos estados no mercado internacional.
-<br>
-O sistema se baseia nos <b>dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços</b>, oferecendo uma interface interativa para análise e tomada de decisão.  
-</div>
-<br>
-
-## *🛠️ Funcionalidades Principais*  
-O usuário poderá:  
-✅ *Visualizar estatísticas da balança comercial* (importação e exportação) de cada estado.  
-✅ *Filtrar informações por período (2014-2024), estado e setor econômico*.  
-✅ *Identificar tendências* de crescimento, estagnação ou declínio nos municípios.  
-✅ *Gerar gráficos e relatórios interativos* sobre o desempenho econômico.  
-✅ *Exportar dados e insights para análises externas*.  
-
-## *🛠️ Requisitos Técnicos*  
-📌 *Desenvolvimento baseado em Orientação a Objetos (OO)*  
-📌 *Modelagem de processos usando VPC e BPMN*  
-📌 *Backlog de Produto e Backlog de Sprint detalhados*  
-📌 *Implementação em TypeScript* utilizando IDEs especializadas  
-📌 *Revisão e otimização de código focada em estrutura de dados* 
-</div>
-<br>
-
-
-<br>
-
-## 📚 Documentação e Manual do Usuário
-
-A documentação técnica e o manual do usuário estão disponíveis na pasta [`Documentação`](./Documentação) deste repositório:
-
-- [📄 Documentação do Projeto (PDF)](./Documentação/Documentação%20-%20AdaTrade.pdf)
-- [👤 Manual do Usuário (PDF)](./Documentação/Manual%20do%20Usuário.pdf)
-
-Esses arquivos fornecem uma visão detalhada sobre o funcionamento do sistema, arquitetura, endpoints da API, bem como instruções de uso para usuários finais.
-
-<br>
-
-
-<br>
-
-## ✨ Protótipo do Programa 
 <a id="prototipo"></a>
+
 <div align="center">
 <table>
   <tr>
@@ -137,141 +94,171 @@ Esses arquivos fornecem uma visão detalhada sobre o funcionamento do sistema, a
 </table>
 </div>
 
+<!---
+## 📋 Backlog do Produto <a id="backlog"></a>
 
-<br>
+| Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
+| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
+|  1   |    Alta    | Como usuário, quero uma interface para inserir um prompt, para que eu possa enviá-lo às LLMs e obter suas respostas                                                                                            |      14      |   1    |         R02          |   ✅   |
+|  2   |    Alta    | Como usuário, eu quero enviar um prompt para dois modelos de IA simultaneamente, para que eu possa avaliar suas respostas posteriormente.                                                                      |      47      |   1    |       R01/R09        |   ✅   |
+|  3   |    Alta    | Como usuário, eu quero visualizar as respostas das LLMs de forma clara e acessível, para que eu possa analisá-las em critérios.                                                                                |      28      |   1    |         R03          |   ✅   |
+|  4   |    Alta    | Como usuário, eu quero uma interface para poder avaliar cada resposta individualmente através de critérios definidos, para que eu possa analisar a qualidade das respostas geradas                             |      22      |   1    |         R03          |   ✅   |
+|  5   |    Alta    | Como usuário, eu quero uma interface para poder escolher a melhor resposta entre as duas geradas pelas LLMs, para que o sistema registre minha decisão e justificativa.                                        |      29      |   1    |         R04          |   ✅   |
+|  6   |    Alta    | Como Administrador, eu quero que as avaliações dos usuários sobre as LLMs sejam armazenadas em um BD, para que possam ser utilizadas em processos de fine-tunning futuramente.                                 |      41      |   1    |         R05          |   ✅   |
+|  7   |    Alta    | Como usuário, eu quero ser alertado caso minha escolha entre LLM1 e LLM2 não esteja coerente com minha avaliação, para que eu possa revisar minha decisão antes de finalizar.                                  |      3       |   2    |         R04          |   ✅   |
+|  8   |    Alta    | Como usuário, eu quero que as respostas das LLMs sejam enriquecidas com informações relevantes da base de dados (vetorizada), para que sejam mais precisas                                                     |      5       |   2    |         R07          |   ✅   |
+|  10  |    Alta    | Como Administrador, eu gostaria de ser o primeiro usuário do sistema, já devidamente pré inserido no banco de dados, para que possa acessar a aplicação.                                                       |      44      |   1    |         R06          |   ✅   |
+|  11  |   Média    | Como Administrador, eu quero cadastrar novos usuários na plataforma, para que somente pessoas autorizadas possam acessá-la.                                                                                    |      17      |   3    |         R06          |   ✅   |
+|  12  |   Média    | Como usuário, eu quero acessar a aplicação através de uma interface de login, para que somente usuários autorizados possam utilizar o sistema.                                                                 |      13      |   3    |         R06          |   ✅   |
+|  13  |   Média    | Como usuário autorizado, eu quero acessar o sistema através de um login, para utilizar a aplicação.                                                                                                            |      23      |   3    |         R06          |   ✅   |
+|  14  |   Média    | Como usuário autenticado, eu quero poder fazer o logout da aplicação de forma segura, para que meus dados não fiquem acessíveis a terceiros.                                                                   |      18      |   3    |         R06          |   ✅   |
+|  15  |   Média    | Como usuário, eu quero poder revisar minha escolha antes de submetê-la, para que eu tenha certeza de que minha decisão está correta.                                                                           |      2       |   2    |         R04          |   ✅   |
+|  16  |   Média    | Como Administrador, eu quero visualizar a lista de usuários cadastrados, para que eu possa gerenciar quem tem acesso ao sistema.                                                                               |      20      |   3    |         R06          |   ✅   |
+|  17  |   Média    | Como Administrador, eu quero redefinir a senha de um usuário, para que eu possa ajudá-lo caso ele não consiga acessar a conta.                                                                                 |      18      |   3    |         R06          |   ✅   |
+|  18  |   Média    | Como Administrador, eu quero excluir usuários do sistema, para que possa revogar o acesso de usuários a aplicação.                                                                                             |      13      |   3    |         R06          |   ✅   |
+|  19  |   Baixa    | Como usuário, eu quero ser informado com mensagens de erro caso ocorra demora excessiva no envio do prompt ou na resposta das LLMs, ou outros erros, para que eu possa entender o problema e tentar novamente. |      2       |   2    |         R03          |   ✅   |
+|  21  |   Baixa    | Como usuário, eu quero poder receber mensagens claras sobre o status das avaliações, para ter certeza de que minha avaliação foi registrada corretamente.                                                      |      2       |   2    |         R03          |   ✅   |
+|  22  |   Baixa    | Como usuário, eu quero poder voltar para telas anteriores durante o processo de avaliação, para que eu possa corrigir informações antes de enviar a decisão final.                                             |      1       |   2    |       R03/R04        |   ✅   |
+|  24  |   Baixa    | Como usuário, eu quero editar meus dados pessoais, para que eu possa manter minhas informações atualizadas.                                                                                                    |      16      |   3    |         R06          |   ✅   |
 
+---
 
-<br>
+## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
-## 🎥 Demonstração 
+- User Stories com **Critérios de Aceitação**
+- Subtarefas divididas **a partir das US**
+- Design no **Figma**
+- Modelagem do **Banco de Dados**
+- Diagrama de **Rotas**
+- Banco de Dados **Vetorizado** do Cliente
+
+## 🏆 DoD - Definition of Done <a id="dod"></a>
+
+- Manual de Usuário
+- Manual da Aplicação
+- Documentação da API (Application Programming Interface)
+- Código completo
+- Vídeos de cada etapa de entrega
+
+--->
+
+---
+
+## 📅 Cronograma de Sprints <a id="sprint"></a>
+
+| Sprint          |    Período    | Relatório          |
+| --------------- | :-----------: | ------------------ |
+| ⌛ **SPRINT 1** | 08/09 - 28/09 | Em progresso       |
+| 🔒 **SPRINT 2** | 06/10 - 26/10 | Ainda não iniciada |
+| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada |
+
+<!---[Sprint 1 Docs](./docs/processo/sprints/sprint-1/README.md)-->
+
+## 🎥 Demonstração
+
 <a id="demo"></a>
 
 ### 📂 Sprint 1:
 
-
 https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 
-
-
-
------------------------------
+---
 
 <br>
 
-## 📖 Metodologia 
-<a id="metodologia"></a>
-Este é um projeto pedagógico alicerçado na Metodologia API, baseado na metodologia ágil SCRUM, para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil. <br>
-Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO). <br>
-Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints. <br>
-[Ler mais](https://fatecsjc-prd.azurewebsites.net/aprendizagem-por-projetos-integrados)
+<!----
+## 📖 Manual de Instalação <a id="manual"></a>
 
+### 🛠 Pré-requisitos
+
+- Git ([Download](https://git-scm.com/downloads))
+
+- Python 3.9+ ([Download](https://www.python.org/downloads/))
+
+- Node.js 16+ ([Download](https://nodejs.org/en/download))
+
+- Poetry (opcional para o backend) ([Download](https://python-poetry.org/))
+
+---
+
+### 1. Clonar o Repositório Principal
+
+```bash
+git clone --recurse-submodules https://github.com/BuzzTech-API/API_ADS_6SEMESTE_2025.1.git
+cd API_ADS_6SEMESTE_2025.1
+```
+
+> **Observação:** Se já tiver clonado sem os submódulos, execute:
+
+```
+git submodule update --init --recursive
+```
+
+---
+
+### 2. Configuração do Backend (auxia-backend)
+
+**1° Adicione as variáveis no .env**
+
+**2° Inicialize o Banco de dados MongoDB no localhost:**
+
+**3° Coloque a base de dados vetorizada ./client dentro da raíz do backen:**
+
+**4° Instale e Inicie a aplicação:**
+
+**Opção A: Com Poetry**
+
+```bash
+cd ./auxia-backend
+poetry shell
+poetry install
+make run
+```
+
+**Opção B: Com Ambiente Virtual Python**
+
+```bash
+cd ./auxia-backend
+python3 -m venv venv
+source venv/bin/activate # se você usa linux
+venv/Scripts/activate 	 # se você usa windows
+pip install -r requirements.txt
+fastapi dev ./auxia/main.py
+```
+
+**Saída Esperada:**
 <br>
+Servidor rodando em `http://localhost:8000` (acesse `http://localhost:8000/docs` para a UI do Swagger).
 
-## 📅 Sprints 
-<a id="sprint"></a>
+---
 
-🔒 SPRINT 1: Ainda não iniciada! <br>
+### 3. Configuração do Frontend (auxia-frontend)
 
-🔒 SPRINT 2: Ainda não iniciada! <br>
+```bash
+cd ../auxia-frontend/auxia
+npm install
+npm run dev
+```
 
-🔒 SPRINT 3: Ainda não iniciada! <br>
-
+**Saída Esperada:**
 <br>
-<!---
-## 🖇️ Requisitos
-<a id="requisitos"></a>
+Frontend rodando em `http://localhost:5173`.
+------>
 
-<div align="center">
-<!---
-|          ID           |                     Descrição                      |         Origem          |
-| :-------------------: | :----------------------------------------------------------: | :-------------: |
-| RQ01 | O usuário poderá submeter documentos para modelos de linguagem e visão. |Lista de requisitos|
-| RQ02 | O software deverá tratar a saída dada por esses modelos.|Lista de requisitos|
-| RQ03 | Criar uma interface para submissão de documentos.|Lista de requisitos|
-| RQ04 | Criar uma interface para exibir resultados.|Lista de requisitos|
-| RQ05 | O usuário poderá cadastrar informações extraídas em um banco de dados relacional.|Lista de requisitos|
-| RQ06 | O usuário poderá consultar as informações do banco de dados.|Lista de requisitos|
-| RQ07 | O usuário poderá editar informações do banco de dados.|Lista de requisitos|
-| RQ08 | O usuário poderá deletar informações do banco de dados.|Lista de requisitos|
-| RQ09 | O software não poderá utilizar nenhuma API externa.|Lista de requisitos|
-| RQ10 | A aplicação precisa rodar localmente na máquina.|Lista de requisitos|
-| RQ11 | O software deverá visar a privacidade dos dados, através de um sistema de controle de acesso.|Acordo com o cliente|
-| RQ12 | A aplicação deve conter uma interface minimalista e intuitiva.|Lista de requisitos|
-| RQ13 | O usuário terá acesso à documentação do projeto e aos guias de uso.|Acordo com o cliente|
-| RQ14 | O usuário poderá filtrar os relatório relevantes através das informações-chave do paciente(nome, patologia, etc.).|Acordo com o cliente|
-| RQ15 | O usuário poderá escolher qual modelo  de linguagem e visão irá utilizar. |Acordo com o cliente|
-| RQ16 | O software terá um sistema de autenticação e autorização. |Acordo com o cliente|
------>
+## 🫧 AdaTeam
 
-
-</div>
-
-<br>
-
-
-## 🐙 Backlog do Produto
-<a id="backlog"></a>
-
-<div align="center">
-<!---
-|   Rank  | Prioridade |                          User Story                             | Sprint | Status  |
-| :-----: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: |
-|  1  | Alta | Como cliente, desejo que os dados sejam normalizados e limpos utilizando o Google Colab, para garantir a qualidade das informações antes da análise. | 1 | ✅ |
-|  2  | Alta | Como cliente, quero um relatório documentando os problemas encontrados e as correções feitas na base de dados, para que eu tenha visibilidade sobre a qualidade dos dados, e possa avaliar possíveis impactos na análise final. | 1 | ✅ |
-|  3  | Alta | Como cliente, quero armazenar os dados tratados em um banco de dados relacional, para facilitar consultas futuras. | 1 | ✅ |
-|  4  | Alta | Como cliente, quero testar a comunicação entre o Front-end e o Back-end com uma funcionalidade mínima implementada para garantir a integração entre as partes. | 1| ✅ |
-|  5  | Alta | Como  usuário do sistema, quero visualizar os dados de exportação/importação segmentados por Estados, para facilitar minha análise. | 2 | ✅ |
-|  6  | Alta | Como cliente, quero que a API seja estruturada para permitir consultas detalhadas ao banco de dados para obter informações mais precisas. | 2 | ✅ |
-|  7  | Alta | Como usuário do sistema, quero pesquisar cargas por código NCM, para encontrar informações específicas rapidamente. | 2 | ✅ |
-|  8  | Alta | Como usuário do sistema, eu quero um painel que classifique as exportações por meio de transporte (rodoviário, marítimo, etc.) para entender padrões logísticos. | 2 | ✅ |
-|  9  | Alta | Como usuário do sistema, quero filtrar os dados por período(2014 a 2024), para realizar análises históricas. | 3 | ✅ |
-| 10  | Alta | Como cliente, quero exportar os dados do dashboard para outras ferramentas, como PowerBI, para que eu possa aprofundar minhas análises e obter insights mais detalhados. | 3 | ✅ |
-| 11  | Média | Como usuário do sistema, quero visualizar um mapa interativo, exibindo fluxos de exportação, para que eu possa entender melhor os mercados envolvidos e analisar tendências comerciais. | 3 | ✅ |
-| 12  | Baixa | Como usuário do sistema, quero que a aplicação seja hospedada na nuvem, para que eu possa acessá-la remotamente com maior disponibilidade e confiabilidade. | 3 | ✅ |
-
------>
-</div>
-
-<br>
-      
-<!--
-## ⛰️ Roadmap de entregas 
-<a id="roadmap"></a>
-<!---img align = "center" src = Documentação/Assets/Slides/6.jpg---->
-
-
-<br>
-
-<div align="center">
-      
-## 🫧 AdaTeam 
 <a id="equipe"></a>
 
-|      Membro      |    Função     |                            Github                            |                           Linkedin                           |
-| :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Raphaela Monteiro | Scrum Master | <a href="https://github.com/raphaelamonteiro"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/raphaelamonteiro/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Angelina Borroni | Product Owner | <a href="https://github.com/borroniff"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/angelina-borroni-ferreira-833a4b301/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Matheus Germano | Dev Team  |  <a href="https://github.com/m-germano"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> | 
-| Maria Fernanda Hansen | Dev Team | <a href="https://github.com/Madhs31"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/maria-fernanda-diniz-0724122ba/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Ramon Amorim da Silva | Dev Team | <a href="https://github.com/ramonads42"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Renan Tomasi | Dev Team | <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Vitor Ribeiro | Dev Team | <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|        Membro         |    Função     |                                                                          Github                                                                          |                                                                                         Linkedin                                                                                          |
+| :-------------------: | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Raphaela Monteiro   | Scrum Master  | <a href="https://github.com/raphaelamonteiro"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |          <a href="https://www.linkedin.com/in/raphaelamonteiro/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>           |
+|   Angelina Borroni    | Product Owner |    <a href="https://github.com/borroniff"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/angelina-borroni-ferreira-833a4b301/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|    Matheus Germano    |   Dev Team    |    <a href="https://github.com/m-germano"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
+| Maria Fernanda Hansen |   Dev Team    |     <a href="https://github.com/Madhs31"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      |   <a href="https://www.linkedin.com/in/maria-fernanda-diniz-0724122ba/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>    |
+| Ramon Amorim da Silva |   Dev Team    |    <a href="https://github.com/ramonads42"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                   <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                   |
+|     Renan Tomasi      |   Dev Team    |    <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
+|     Vitor Ribeiro     |   Dev Team    |  <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
+
 <br>
 
-## 🚀 Cliente: 
-<a id="cliente"></a>
-
-| Cliente              |        |
-| :-------------------: | :-----------: |
-| Creonice Honório | <a href='https://www.tecsysbrasil.com.br'>TecSys </a> |
-
-
-## 🗝️ Docentes: 
-<a id="docentes"></a>
-
-| P²              | M²       |
-| :-------------------: | :-----------: |
-| <a href='http://lattes.cnpq.br/1506784529918492'>Juliana Pasquini </a> | <a href='http://lattes.cnpq.br/4377240827813491'>Giuliano Bertoti </a> |
-
-
-
+</div>
