@@ -1,13 +1,11 @@
-# API 4º Semestre ADS
+<h1 align="center"> API ADS 4º Semestre </h1>
 
-# TecSys - AdaTech
+<div align="center">
+      <img src="docs/assets/Banner - projeto.png" alt="AdaTech" width="900">
+<h2 align="center"> 🐙 Adalove </h2>
+</div>
 
-<p align="center">
-      <img src="docs/Img/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
-      <h2 align="center"> Buzz Tech</h2>
-</p>
-
-<p align="center">
+<div align="center">
   | <a href ="#desafio"> Desafio</a>  |
   <a href ="#mvp"> Solução</a>  |   
   <a href ="#backlog"> Backlog do Produto</a>  |
@@ -15,14 +13,18 @@
   <a href ="#dod">DoD</a>  |
   <a href ="#sprint"> Cronograma de Sprints</a>  |
   <a href ="#tecnologias">Tecnologias</a> |
-  <a href ="#manual">Manual de Instalação</a>  | 
-  <a href ="#equipe"> Equipe</a> |
-</p>
+  <!---a href ="#manual">Manual de Instalação</a>  | --->
+  <a href ="#adateam"> Equipe </a> |
+</div>
+
 
 <h1 align="center">
 
 <div style="display: inline_block"><br>
+  
 <img align="center" alt="Raphs-Jira" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg">
+
+<img align="center" alt="Raphs-Slack" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg">
 
 <img align="center" alt="Raphs-HTML" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
 
@@ -36,21 +38,17 @@
 
 <img align="center" alt="Raphs-Node" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
           
-<img align="center" alt="Raphs-NestJS" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg">
-
 <img align="center" alt="Raphs-Python" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
 
-<img align="center" alt="Raphs-Colab" height="60" width="60" src="https://colab.research.google.com/img/colab_favicon_256px.png">
-
-<img align="center" alt="Raphs-Postgre" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg">
-
-<img align="center" alt="Raphs-Figma" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg">
+<img align="center" alt="Raphs-Ollama" height="40" width="40" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
 
 <img align="center" alt="Raphs-Git" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg">
 
 <img align="center" alt="Raphs-VsCode" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg">
 
 <img align="center" alt="Raphs-Figma" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+
+</h1>
 
 </div>
 
@@ -94,46 +92,37 @@ e/ou multas sobre o material declarado.
 </table>
 </div>
 
+
+## 🐙 Backlog do Produto
+<a id="backlog"></a>
+
+
+| Rank | Prioridade | User Story | Story Points | Sprint | Status |
+| :--: | :-------: |  :------------------------------------------------------------------:  | :-------: | :----: | :----: | 
+| 1 | Alta | Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele. |  -  | 1 | ⌛ |
+| 2 | Alta | Como analista de importação, quero que o sistema utilize uma IA, para sugerir o NCM e a descrição de cada item, exibindo o resultado. |  -  | 1 | ⌛ |
+| 3 | Alta | Como contratante, quero poder gerar um arquivo Excel com os dados finais, para submeter à receita federal. |  -  | 1 | ⌛ |
+| 4 | Alta | Como operador do sistema, quero ter um formulário, para revisar e corrigir as informações extraídas pela IA antes de finalizar o processo. |  -  | 2 | 🔒 |
+| 5 | Alta | Como desenvolvedor, quero substituir a IA externa por um agente local para garantir o controle sobre o processo. |  -  | 2 | 🔒 |
+| 6 | Média | Como contratante, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa. |  -  | 2 | 🔒 |
+| 7 | Média | Como um analista de importação, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |  -  | 3 | 🔒 |
+| 8 | Baixa | Como desenvolvedor, quero produzir a documentação completa do sistema para facilitar o uso e possíveis manutenções futuras. |  -  | 3 | 🔒 |
+
+
+
+## ⚓ DoR - Definition of Ready <a id="dor"></a>
+
 <!---
-## 📋 Backlog do Produto <a id="backlog"></a>
-
-| Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
-| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|  1   |    Alta    | Como usuário, quero uma interface para inserir um prompt, para que eu possa enviá-lo às LLMs e obter suas respostas                                                                                            |      14      |   1    |         R02          |   ✅   |
-|  2   |    Alta    | Como usuário, eu quero enviar um prompt para dois modelos de IA simultaneamente, para que eu possa avaliar suas respostas posteriormente.                                                                      |      47      |   1    |       R01/R09        |   ✅   |
-|  3   |    Alta    | Como usuário, eu quero visualizar as respostas das LLMs de forma clara e acessível, para que eu possa analisá-las em critérios.                                                                                |      28      |   1    |         R03          |   ✅   |
-|  4   |    Alta    | Como usuário, eu quero uma interface para poder avaliar cada resposta individualmente através de critérios definidos, para que eu possa analisar a qualidade das respostas geradas                             |      22      |   1    |         R03          |   ✅   |
-|  5   |    Alta    | Como usuário, eu quero uma interface para poder escolher a melhor resposta entre as duas geradas pelas LLMs, para que o sistema registre minha decisão e justificativa.                                        |      29      |   1    |         R04          |   ✅   |
-|  6   |    Alta    | Como Administrador, eu quero que as avaliações dos usuários sobre as LLMs sejam armazenadas em um BD, para que possam ser utilizadas em processos de fine-tunning futuramente.                                 |      41      |   1    |         R05          |   ✅   |
-|  7   |    Alta    | Como usuário, eu quero ser alertado caso minha escolha entre LLM1 e LLM2 não esteja coerente com minha avaliação, para que eu possa revisar minha decisão antes de finalizar.                                  |      3       |   2    |         R04          |   ✅   |
-|  8   |    Alta    | Como usuário, eu quero que as respostas das LLMs sejam enriquecidas com informações relevantes da base de dados (vetorizada), para que sejam mais precisas                                                     |      5       |   2    |         R07          |   ✅   |
-|  10  |    Alta    | Como Administrador, eu gostaria de ser o primeiro usuário do sistema, já devidamente pré inserido no banco de dados, para que possa acessar a aplicação.                                                       |      44      |   1    |         R06          |   ✅   |
-|  11  |   Média    | Como Administrador, eu quero cadastrar novos usuários na plataforma, para que somente pessoas autorizadas possam acessá-la.                                                                                    |      17      |   3    |         R06          |   ✅   |
-|  12  |   Média    | Como usuário, eu quero acessar a aplicação através de uma interface de login, para que somente usuários autorizados possam utilizar o sistema.                                                                 |      13      |   3    |         R06          |   ✅   |
-|  13  |   Média    | Como usuário autorizado, eu quero acessar o sistema através de um login, para utilizar a aplicação.                                                                                                            |      23      |   3    |         R06          |   ✅   |
-|  14  |   Média    | Como usuário autenticado, eu quero poder fazer o logout da aplicação de forma segura, para que meus dados não fiquem acessíveis a terceiros.                                                                   |      18      |   3    |         R06          |   ✅   |
-|  15  |   Média    | Como usuário, eu quero poder revisar minha escolha antes de submetê-la, para que eu tenha certeza de que minha decisão está correta.                                                                           |      2       |   2    |         R04          |   ✅   |
-|  16  |   Média    | Como Administrador, eu quero visualizar a lista de usuários cadastrados, para que eu possa gerenciar quem tem acesso ao sistema.                                                                               |      20      |   3    |         R06          |   ✅   |
-|  17  |   Média    | Como Administrador, eu quero redefinir a senha de um usuário, para que eu possa ajudá-lo caso ele não consiga acessar a conta.                                                                                 |      18      |   3    |         R06          |   ✅   |
-|  18  |   Média    | Como Administrador, eu quero excluir usuários do sistema, para que possa revogar o acesso de usuários a aplicação.                                                                                             |      13      |   3    |         R06          |   ✅   |
-|  19  |   Baixa    | Como usuário, eu quero ser informado com mensagens de erro caso ocorra demora excessiva no envio do prompt ou na resposta das LLMs, ou outros erros, para que eu possa entender o problema e tentar novamente. |      2       |   2    |         R03          |   ✅   |
-|  21  |   Baixa    | Como usuário, eu quero poder receber mensagens claras sobre o status das avaliações, para ter certeza de que minha avaliação foi registrada corretamente.                                                      |      2       |   2    |         R03          |   ✅   |
-|  22  |   Baixa    | Como usuário, eu quero poder voltar para telas anteriores durante o processo de avaliação, para que eu possa corrigir informações antes de enviar a decisão final.                                             |      1       |   2    |       R03/R04        |   ✅   |
-|  24  |   Baixa    | Como usuário, eu quero editar meus dados pessoais, para que eu possa manter minhas informações atualizadas.                                                                                                    |      16      |   3    |         R06          |   ✅   |
-
----
-
-## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
-
 - User Stories com **Critérios de Aceitação**
 - Subtarefas divididas **a partir das US**
 - Design no **Figma**
 - Modelagem do **Banco de Dados**
 - Diagrama de **Rotas**
 - Banco de Dados **Vetorizado** do Cliente
+----->
 
-## 🏆 DoD - Definition of Done <a id="dod"></a>
-
+## ⛵ DoD - Definition of Done <a id="dod"></a>
+<!---
 - Manual de Usuário
 - Manual da Aplicação
 - Documentação da API (Application Programming Interface)
@@ -247,7 +236,8 @@ Frontend rodando em `http://localhost:5173`.
 
 ## 🫧 AdaTeam
 
-<a id="equipe"></a>
+<a id="adateam"></a>
+
 
 |        Membro         |    Função     |                                                                          Github                                                                          |                                                                                         Linkedin                                                                                          |
 | :-------------------: | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -260,5 +250,23 @@ Frontend rodando em `http://localhost:5173`.
 |     Vitor Ribeiro     |   Dev Team    |  <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
 
 <br>
+
+
+## 🐬 Cliente: 
+<a id="cliente"></a>
+
+| Cliente              |        |
+| :-------------------: | :-----------: |
+| Creonice Honório | <a href='https://www.tecsysbrasil.com.br'>TecSys </a> |
+
+
+## 🌊 Docentes: 
+<a id="docentes"></a>
+
+| P²              | M²       |
+| :-------------------: | :-----------: |
+| <a href='http://lattes.cnpq.br/1506784529918492'>Juliana Pasquini </a> | <a href='http://lattes.cnpq.br/4377240827813491'>Giuliano Bertoti </a> |
+
+
 
 </div>
