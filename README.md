@@ -12,7 +12,7 @@
 <a href ="#mvp"> Solução</a> | <a href ="#backlog"> Backlog do Produto</a> |
 <a href ="#sprint"> Cronograma de Sprints</a> |
 <a href ="#tecnologias"> Tecnologias </a> |
-<a href ="#estrutura"> Estrutura do Projeto </a> |
+<!---a href ="#estrutura"> Estrutura do Projeto </a> |---->
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
 <a href ="#manual"> Guia de Documentações</a> |
@@ -69,8 +69,6 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 - O valor para o negócio está claro e foi compreendido pela equipe de desenvolvimento.
 - A história foi priorizada pelo Product Owner (PO).
 
----
-
 **2. Critérios de Funcionalidade e Design:**
 
 - Os Critérios de Aceite estão definidos, são claros, concisos e testáveis.
@@ -78,8 +76,6 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
   mockups necessários foram apresentados à equipe.
 - Quaisquer regras de negócio, lógicas ou cálculos específicos foram esclarecidos (ex: o formato
   esperado para a submissão à Receita Federal).
-
----
 
 **3. Critérios Técnicos:**
 
@@ -89,8 +85,6 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
   bloqueiem o início do trabalho.
 - As necessidades de dados para desenvolvimento e teste foram identificadas (ex: exemplos de PDFs
   de pedidos de compra para treinar ou validar a extração de P/Ns).
-
----
 
 **4. Critérios de Processo:**
 
@@ -111,6 +105,7 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
+
 | Sprint          |    Período    | Relatório          |
 | --------------- | :-----------: | ------------------ |
 | ⌛ **SPRINT 1** | 08/09 - 28/09 | Em progresso       |
@@ -122,14 +117,19 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 <div align="center">
 <table>
   <tr>
-    <th> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Inicio%20-%20Light%20mode.png"> </th>
-    <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Dark/Final%20-%20Dashboard%20(Dark)%20(1).png"> </th>
-    <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Dark/Final%20-%20NCM%20(Dark).png"> </th>
+      <th> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Inicio%20-%20Light%20mode.png"> </th>
+      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Login%20-%20Light%20mode.png"> </th>
+      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Tela%20Principal%20-%20Light%20mode.png"> </th>
+      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Tela%20Saida%20e%20Edi%C3%A7%C3%A3o-%20Light%20mode.png"> </th>
+      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Perfil%20-%20Light%20mode.png"> </th>
+
   </tr>
   <tr>
-    <td> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Inicio%20-%20Dark%20mode.png"></td>
-    <td> <img src ="https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Light/Final%20-%20Dashboard%20(Light)%20(1).png"> </td>
-    <td> <img src ="https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Light/Final%20-%20NCM%20(Light).png"> </td>
+      <td> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Inicio%20-%20Dark%20mode.png"></td>
+      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Criar%20conta%20-%20Dark%20mode.png"> </td>
+      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Tela%20Principal%20-%20%20Dark%20mode.png"> </td>
+      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Tela%20Saida%20e%20Edi%C3%A7%C3%A3o-%20Dark%20mode.png"> </td>
+      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Perfil%20-%20%20Dark%20mode.png"> </td>
   </tr>
 </table>
 </div>
@@ -144,7 +144,7 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 
 ---
 
-## ⚡ Tecnologias
+## 🚢 Tecnologias
 
 <a id="tecnologias"></a>
 
@@ -169,90 +169,19 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 
 </h4>
 
-<br>
+</div>
 
-<!----
-## 📖 Manual de Instalação <a id="manual"></a>
+## 📖 Guia de Documentações <a id="manual"></a>
+[Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/manuais)
+[Documentação Técnica)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/documentacao)
 
-### 🛠 Pré-requisitos
 
-- Git ([Download](https://git-scm.com/downloads))
-
-- Python 3.9+ ([Download](https://www.python.org/downloads/))
-
-- Node.js 16+ ([Download](https://nodejs.org/en/download))
-
-- Poetry (opcional para o backend) ([Download](https://python-poetry.org/))
-
----
-
-### 1. Clonar o Repositório Principal
-
-```bash
-git clone --recurse-submodules https://github.com/BuzzTech-API/API_ADS_6SEMESTE_2025.1.git
-cd API_ADS_6SEMESTE_2025.1
-```
-
-> **Observação:** Se já tiver clonado sem os submódulos, execute:
-
-```
-git submodule update --init --recursive
-```
-
----
-
-### 2. Configuração do Backend (auxia-backend)
-
-**1° Adicione as variáveis no .env**
-
-**2° Inicialize o Banco de dados MongoDB no localhost:**
-
-**3° Coloque a base de dados vetorizada ./client dentro da raíz do backen:**
-
-**4° Instale e Inicie a aplicação:**
-
-**Opção A: Com Poetry**
-
-```bash
-cd ./auxia-backend
-poetry shell
-poetry install
-make run
-```
-
-**Opção B: Com Ambiente Virtual Python**
-
-```bash
-cd ./auxia-backend
-python3 -m venv venv
-source venv/bin/activate # se você usa linux
-venv/Scripts/activate 	 # se você usa windows
-pip install -r requirements.txt
-fastapi dev ./auxia/main.py
-```
-
-**Saída Esperada:**
-<br>
-Servidor rodando em `http://localhost:8000` (acesse `http://localhost:8000/docs` para a UI do Swagger).
-
----
-
-### 3. Configuração do Frontend (auxia-frontend)
-
-```bash
-cd ../auxia-frontend/auxia
-npm install
-npm run dev
-```
-
-**Saída Esperada:**
-<br>
-Frontend rodando em `http://localhost:5173`.
------->
 
 ## 🫧 AdaTeam
 
 <a id="adateam"></a>
+
+<div align="center">
 
 |        Membro         |    Função     |                                                                          Github                                                                          |                                                                                         Linkedin                                                                                          |
 | :-------------------: | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -264,19 +193,25 @@ Frontend rodando em `http://localhost:5173`.
 |     Renan Tomasi      |   Dev Team    |    <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
 |     Vitor Ribeiro     |   Dev Team    |  <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
 
-<br>
+</div>
 
 ## ⚓ Cliente:
 
 <a id="cliente"></a>
 
+<div align="center">
+
 |     Cliente      |                                                       |
 | :--------------: | :---------------------------------------------------: |
 | Creonice Honório | <a href='https://www.tecsysbrasil.com.br'>TecSys </a> |
 
+</div>
+
 ## 🌊 Docentes:
 
 <a id="docentes"></a>
+
+<div align="center">
 
 |                                   P²                                   |                                   M²                                   |
 | :--------------------------------------------------------------------: | :--------------------------------------------------------------------: |
