@@ -9,7 +9,8 @@
 
 |
 <a href ="#desafio"> Desafio</a> |
-<a href ="#mvp"> Solução</a> | <a href ="#backlog"> Backlog do Produto</a> |
+<a href ="#mvp"> Solução</a> | 
+<a href ="#backlog"> Backlog do Produto</a> |
 <a href ="#sprint"> Cronograma de Sprints</a> |
 <a href ="#tecnologias"> Tecnologias </a> |
 <!---a href ="#estrutura"> Estrutura do Projeto </a> |---->
@@ -21,15 +22,10 @@
 
 </div>
 
----
-
 <div align="center">
-
-> Status do Projeto: Em andamento! ⌛
-
+      <h3 align="center"> Status do Projeto: Em andamento! ⌛ </h2>
 </div>
 
----
 
 ## 🏁 Desafio: <a id="desafio"></a>
 
