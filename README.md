@@ -122,12 +122,12 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 <div align="center">
 <table>
   <tr>
-    <th> <img src="docs/telas-figma/light-mode/Inicio - Light mode.png"> </th>
+    <th> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Inicio%20-%20Light%20mode.png"> </th>
     <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Dark/Final%20-%20Dashboard%20(Dark)%20(1).png"> </th>
     <th> <img src = "https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Dark/Final%20-%20NCM%20(Dark).png"> </th>
   </tr>
   <tr>
-    <td> <img src="docs/telas-figma/dark-mode/Inicio - Dark mode.png"></td>
+    <td> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Inicio%20-%20Dark%20mode.png"></td>
     <td> <img src ="https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Light/Final%20-%20Dashboard%20(Light)%20(1).png"> </td>
     <td> <img src ="https://github.com/equipeAdalove/Front-API-SEMESTRE3/blob/Sprint-1/Prot%C3%B3tipo/Light/Final%20-%20NCM%20(Light).png"> </td>
   </tr>
