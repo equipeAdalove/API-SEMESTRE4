@@ -169,6 +169,7 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 
 ## 📖 Guia de Documentações <a id="manual"></a>
 [Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/manuais)
+
 [Documentação Técnica)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/documentacao)
 
 
