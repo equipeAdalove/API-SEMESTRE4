@@ -9,11 +9,13 @@
 
 |
 <a href ="#desafio"> Desafio</a> |
-<a href ="#mvp"> Solução</a> | 
+<a href ="#mvp"> Solução</a> |
 <a href ="#backlog"> Backlog do Produto</a> |
 <a href ="#sprint"> Cronograma de Sprints</a> |
 <a href ="#tecnologias"> Tecnologias </a> |
+
 <!---a href ="#estrutura"> Estrutura do Projeto </a> |---->
+
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
 <a href ="#manual"> Guia de Documentações</a> |
@@ -25,7 +27,6 @@
 <div align="center">
       <h3 align="center"> Status do Projeto: Em andamento! ⌛ </h2>
 </div>
-
 
 ## 🏁 Desafio: <a id="desafio"></a>
 
@@ -101,7 +102,6 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
-
 | Sprint          |    Período    | Relatório          |
 | --------------- | :-----------: | ------------------ |
 | ⌛ **SPRINT 1** | 08/09 - 28/09 | Em progresso       |
@@ -113,19 +113,16 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 <div align="center">
 <table>
   <tr>
-      <th> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Inicio%20-%20Light%20mode.png"> </th>
-      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Login%20-%20Light%20mode.png"> </th>
-      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Tela%20Principal%20-%20Light%20mode.png"> </th>
-      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Tela%20Saida%20e%20Edi%C3%A7%C3%A3o-%20Light%20mode.png"> </th>
-      <th> <img src = "https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/light-mode/Perfil%20-%20Light%20mode.png"> </th>
-
+      <th> <img src="docs/assets/telas-figma/light-mode/Inicio%20-%20Light%20mode.png"> </th>
+      <th> <img src = "docs/assets/telas-figma/light-mode/Criar%20conta-%20Light%20mode.png"> </th>
+      <th> <img src = "docs/assets/telas-figma/light-mode/Tela%20Principal%20-%20Light%20mode.png"> </th>
+      <th> <img src = "docs/assets/telas-figma/light-mode/Perfil%20-%20Light%20mode.png"> </th>
   </tr>
   <tr>
-      <td> <img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Inicio%20-%20Dark%20mode.png"></td>
-      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Criar%20conta%20-%20Dark%20mode.png"> </td>
-      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Tela%20Principal%20-%20%20Dark%20mode.png"> </td>
-      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Tela%20Saida%20e%20Edi%C3%A7%C3%A3o-%20Dark%20mode.png"> </td>
-      <td> <img src ="https://github.com/equipeAdalove/API-SEMESTRE4/blob/docs/update-readme-mvp/docs/assets/telas-figma/dark-mode/Perfil%20-%20%20Dark%20mode.png"> </td>
+      <td> <img src="docs/assets/telas-figma/dark-mode/Inicio%20-%20Dark%20mode.png"></td>
+      <td> <img src ="docs/assets/telas-figma/dark-mode/Criar%20conta%20-%20Dark%20mode.png"> </td>
+      <td> <img src ="docs/assets/telas-figma/dark-mode/Tela%20Principal%20-%20%20Dark%20mode.png"> </td>
+      <td> <img src ="docs/assets/telas-figma/dark-mode/Perfil%20-%20%20Dark%20mode.png"> </td>
   </tr>
 </table>
 </div>
@@ -168,11 +165,10 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 </div>
 
 ## 📖 Guia de Documentações <a id="manual"></a>
-[Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/manuais)
 
-[Documentação Técnica)](https://github.com/equipeAdalove/API-SEMESTRE4/tree/main/docs/documentacao)
+[Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](docs/manuais)
 
-
+[Documentação Técnica](docs/documentacao)
 
 ## 🫧 AdaTeam
 
