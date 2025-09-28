@@ -102,11 +102,11 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
-| Sprint          |    Período    | Relatório          |
-| --------------- | :-----------: | ------------------ |
-| ⌛ **SPRINT 1** | 08/09 - 28/09 | Em progresso       |
-| 🔒 **SPRINT 2** | 06/10 - 26/10 | Ainda não iniciada |
-| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada |
+| Sprint          |    Período    | Relatório                                 |
+| --------------- | :-----------: | ----------------------------------------- |
+| ⌛ **SPRINT 1** | 08/09 - 28/09 | [Concluída](docs/doc-sprints/sprint-1.md) |
+| 🔒 **SPRINT 2** | 06/10 - 26/10 | Ainda não iniciada                        |
+| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada                        |
 
 ## ✨ Protótipo da Aplicação <a id="prototipo"></a>
 
