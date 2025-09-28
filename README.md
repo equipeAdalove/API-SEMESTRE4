@@ -18,6 +18,7 @@
 
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
+<a href ="#roadmap"> Roadmap de Entregas </a> |
 <a href ="#manual"> Guia de Documentações</a> |
 <a href ="#adateam"> Equipe </a>
 |
@@ -48,9 +49,9 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 | Rank | Prioridade |                                                                            User Story                                                                            | Story Points | Sprint | Status |
 | :--: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----: | :----: |
-|  1   |    Alta    |        Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.         |      -       |   1    |   ⌛   |
-|  2   |    Alta    |              Como analista de importação, quero que o sistema utilize uma IA, para sugerir o NCM e a descrição de cada item, exibindo o resultado.               |      -       |   1    |   ⌛   |
-|  3   |    Alta    |                            Como contratante, quero poder gerar um arquivo Excel com os dados finais, para submeter à receita federal.                            |      -       |   1    |   ⌛   |
+|  1   |    Alta    |        Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.         |      -       |   1    |   ✔️   |
+|  2   |    Alta    |              Como analista de importação, quero que o sistema utilize uma IA, para sugerir o NCM e a descrição de cada item, exibindo o resultado.               |      -       |   1    |   ✔️    |
+|  3   |    Alta    |                            Como contratante, quero poder gerar um arquivo Excel com os dados finais, para submeter à receita federal.                            |      -       |   1    |   ✔️    |
 |  4   |    Alta    |            Como operador do sistema, quero ter um formulário, para revisar e corrigir as informações extraídas pela IA antes de finalizar o processo.            |      -       |   2    |   🔒   |
 |  5   |    Alta    |                         Como desenvolvedor, quero substituir a IA externa por um agente local para garantir o controle sobre o processo.                         |      -       |   2    |   🔒   |
 |  6   |   Média    |                      Como contratante, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.                      |      -       |   2    |   🔒   |
@@ -95,7 +96,7 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 - Implementar extração do PartNumber;
 - Avaliação de Modelos de IA para Extrair P/Ns;
 - Web Scrapping do sistema funcionando;
-- Possuir a sigestão de NCM;
+- Possuir a sugestão de NCM;
 - Gerar planilha Excel com dados extraídos.
 
 ---
@@ -163,6 +164,11 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 </h4>
 
 </div>
+
+## 🌊 Roadmap de Entregas <a id="roadmap"></a>
+
+![1° Sprint -  API 4 SEMESTRE- AdaTech](https://github.com/user-attachments/assets/a02012d8-45db-4135-a58c-c8688cb588b2)
+
 
 ## 📖 Guia de Documentações <a id="manual"></a>
 
