@@ -49,15 +49,13 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 | Rank | Prioridade |                                                                            User Story                                                                            | Story Points | Sprint | Status |
 | :--: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----: | :----: |
-|  1   |    Alta    |        Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.         |      -       |   1    |   ✔️   |
-|  2   |    Alta    |              Como analista de importação, quero que o sistema utilize uma IA, para sugerir o NCM e a descrição de cada item, exibindo o resultado.               |      -       |   1    |   ✔️    |
-|  3   |    Alta    |                            Como contratante, quero poder gerar um arquivo Excel com os dados finais, para submeter à receita federal.                            |      -       |   1    |   ✔️    |
-|  4   |    Alta    |            Como operador do sistema, quero ter um formulário, para revisar e corrigir as informações extraídas pela IA antes de finalizar o processo.            |      -       |   2    |   🔒   |
-|  5   |    Alta    |                         Como desenvolvedor, quero substituir a IA externa por um agente local para garantir o controle sobre o processo.                         |      -       |   2    |   🔒   |
-|  6   |   Média    |                      Como contratante, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.                      |      -       |   2    |   🔒   |
-|  7   |   Média    | Como um analista de importação, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      -       |   3    |   🔒   |
-|  8   |   Baixa    |                   Como desenvolvedor, quero produzir a documentação completa do sistema para facilitar o uso e possíveis manutenções futuras.                    |      -       |   3    |   🔒   |
-
+|  1   |    Alta   |    Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.    |    5    |   1    |   ✔️   |
+|  2   |    Alta   |    Como usuário final, quero que o sistema sugira o NCM e a descrição de cada item, para que eu tome ciência deles.     |   13    |   1    |   ✔️    |
+|  3   |    Alta   |    Como usuário final, quero gerar um arquivo Excel com os dados finais, para submeter à receita federal.               |    3    |   1    |   ✔️    |
+|  4   |    Média  |    Como usuário final, quero ter um formulário, para revisar e corrigir as informações extraídas antes de finalizar o processo, para evitar falhas |   8    |   2    |   ⏳   |
+|  5   |    Média  |    Como usuário final, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa. |    5     |   2    |   ⏳   |
+|  6   |   Média   |    Como usuário final, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |     5     |   3    |   🔒   |
+|  7   |   Baixa   |    Como usuário final, quero ter acesso à documentação completa do sistema para facilitar o uso e a instalação dele.  |    3    |   3    |   🔒   |
 ## 🚣 DoR - Definition of Ready <a id="dor"></a>
 
 **1. Critérios de Negócio:**
