@@ -1,5 +1,5 @@
 <hr>
-<h1 align="center"> 🐙 Relatório - 1º Sprint </h1>
+<h1 align="center"> 🐙 Relatório - 2º Sprint </h1>
 <br>
 <p align = "center">
   <a href = "#mvp"> MVP </a>  |
@@ -17,12 +17,13 @@
 ![DuckDuckGo](https://img.shields.io/badge/duckduckgo-de5833?style=for-the-badge&logo=duckduckgo&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
@@ -63,7 +64,7 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 <a id="objetivo"></a>
 
 <div>
-Entregar artefatos que definam o fluxo de navegação e usabilidade da aplicação, além de alinhar requisitos e arquiteturas, criando uma base sólida para o desenvolvimento posterior. <br>
+Construir a estrutura de aplicação ao redor do Agente de IA local, implementação da tela de login, edição das informações e conexão com banco de dados. <br>
 </div>
 <br>
 
@@ -75,10 +76,8 @@ Entregar artefatos que definam o fluxo de navegação e usabilidade da aplicaç�
       
 |   Rank  | User Story  | Sprint | Status  |
 | :-----: | :------------------------------------------------------: | :----: | :-----: |
-|  1    | Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele. | 1 | ✔️ |
-|  2    | Como usuário final, quero que o sistema sugira o NCM e a descrição de cada item, para que eu tome ciência deles. | 1 | ✔️ |
-|  3    | Como usuário final, quero gerar um arquivo Excel com os dados finais, para submeter à receita federal.  | 1 | ✔️ |
-
+|  4    | Como usuário final, quero ter um formulário, para revisar e corrigir as informações extraídas antes de finalizar o processo, para evitar falhas  | 2 | ✔️ |
+|  5   | Como usuário final, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa. | 2 | ✔️ |
 </div>
 
 <br>
@@ -111,8 +110,7 @@ https://github.com/user-attachments/assets/a556c571-094c-4e05-9870-b932f6f5f3b1
 |    Matheus Germano    |   Dev Team    |    <a href="https://github.com/m-germano"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
 | Maria Fernanda Hansen |   Dev Team    |     <a href="https://github.com/Madhs31"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      |   <a href="https://www.linkedin.com/in/maria-fernanda-diniz-0724122ba/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>    |
 | Ramon Amorim da Silva |   Dev Team    |    <a href="https://github.com/ramonads42"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                   <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                   |
-|     Renan Tomasi      |   Dev Team    |    <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
-|     Vitor Ribeiro     |   Dev Team    |  <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+|     Renan Tomasi      |   Dev Team    |    <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 <br>
 

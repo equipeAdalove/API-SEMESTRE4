@@ -18,6 +18,7 @@
 
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
+<a href ="#roadmap"> Roadmap de Entregas </a> |
 <a href ="#manual"> Guia de Documentações</a> |
 <a href ="#adateam"> Equipe </a>
 |
@@ -46,67 +47,51 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 <a id="backlog"></a>
 
-| Rank | Prioridade |                                                                            User Story                                                                            | Story Points | Sprint | Status |
-| :--: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----: | :----: |
-|  1   |    Alta    |        Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.         |      -       |   1    |   ⌛   |
-|  2   |    Alta    |              Como analista de importação, quero que o sistema utilize uma IA, para sugerir o NCM e a descrição de cada item, exibindo o resultado.               |      -       |   1    |   ⌛   |
-|  3   |    Alta    |                            Como contratante, quero poder gerar um arquivo Excel com os dados finais, para submeter à receita federal.                            |      -       |   1    |   ⌛   |
-|  4   |    Alta    |            Como operador do sistema, quero ter um formulário, para revisar e corrigir as informações extraídas pela IA antes de finalizar o processo.            |      -       |   2    |   🔒   |
-|  5   |    Alta    |                         Como desenvolvedor, quero substituir a IA externa por um agente local para garantir o controle sobre o processo.                         |      -       |   2    |   🔒   |
-|  6   |   Média    |                      Como contratante, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.                      |      -       |   2    |   🔒   |
-|  7   |   Média    | Como um analista de importação, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      -       |   3    |   🔒   |
-|  8   |   Baixa    |                   Como desenvolvedor, quero produzir a documentação completa do sistema para facilitar o uso e possíveis manutenções futuras.                    |      -       |   3    |   🔒   |
+| Rank | Prioridade |                                                                      User Story                                                                      | Story Points | Sprint | Status |
+| :--: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----: | :----: |
+|  1   |    Alta    |  Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.   |      5       |   1    |   ✔️   |
+|  2   |    Alta    |                   Como usuário final, quero que o sistema sugira o NCM e a descrição de cada item, para que eu tome ciência deles.                   |      13      |   1    |   ✔️   |
+|  3   |    Alta    |                        Como usuário final, quero gerar um arquivo Excel com os dados finais, para submeter à receita federal.                        |      3       |   1    |   ✔️   |
+|  4   |   Média    |   Como usuário final, quero ter um formulário, para revisar e corrigir as informações extraídas antes de finalizar o processo, para evitar falhas    |      8       |   2    |   ✔️   |
+|  5   |   Média    |               Como usuário final, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.               |      5       |   2    |   ✔️   |
+|  6   |   Média    | Como usuário final, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      5       |   3    |   🔒   |
+|  7   |   Baixa    |                  Como usuário final, quero ter acesso à documentação completa do sistema para facilitar o uso e a instalação dele.                   |      3       |   3    |   🔒   |
 
 ## 🚣 DoR - Definition of Ready <a id="dor"></a>
 
-**1. Critérios de Negócio:**
+✔️ Descrição Clara e Concisa: A história do usuário possui uma descrição clara e concisa do ponto de vista do usuário.
 
-- A história escrita no formato padrão: "Como <tipo de usuário>, quero <objetivo>, para que
-  <benefício>".
-- O valor para o negócio está claro e foi compreendido pela equipe de desenvolvimento.
-- A história foi priorizada pelo Product Owner (PO).
+✔️ Critérios de Aceitação Definidos: Os critérios de aceitação foram definidos e são compreendidos pela equipe.
 
-**2. Critérios de Funcionalidade e Design:**
+✔️ Estimativa Concluída: A história foi estimada pela equipe de desenvolvimento.
 
-- Os Critérios de Aceite estão definidos, são claros, concisos e testáveis.
-- Para histórias que envolvem interface de usuário (como a tela de upload ), os wireframes ou
-  mockups necessários foram apresentados à equipe.
-- Quaisquer regras de negócio, lógicas ou cálculos específicos foram esclarecidos (ex: o formato
-  esperado para a submissão à Receita Federal).
+✔️ Dependências Identificadas: As dependências com outras histórias foram identificadas.
 
-**3. Critérios Técnicos:**
-
-- As dependências técnicas (externas ou internas, como APIs de terceiros para o Web Scraping)
-  foram identificadas.
-- A equipe de desenvolvimento realizou uma análise técnica inicial e não identificou impedimentos que
-  bloqueiem o início do trabalho.
-- As necessidades de dados para desenvolvimento e teste foram identificadas (ex: exemplos de PDFs
-  de pedidos de compra para treinar ou validar a extração de P/Ns).
-
-**4. Critérios de Processo:**
-
-- As histórias foram discutidas e entendidas por toda a equipe de desenvolvimento.
-- As histórias foram estimadas pela equipe de desenvolvimento.
-- O tamanho estimado da história permite que ela seja concluída dentro de uma única Sprint.
+✔️ Priorização do Product Owner: O Product Owner aprovou e priorizou todas as histórias.
 
 ## 🏝️ DoD - Definition of Done <a id="dod"></a>
 
-- Criar tela de upload de PDF com drag-and-drop;
-- Implementar extração do PartNumber;
-- Avaliação de Modelos de IA para Extrair P/Ns;
-- Web Scrapping do sistema funcionando;
-- Possuir a sigestão de NCM;
-- Gerar planilha Excel com dados extraídos.
+- Código Escrito e Revisado: O código foi escrito e revisado.
+
+- Testes de Desenvolvedor: A solução foi testada pelos desenvolvedores.
+
+- Critérios de Aceitação Atendidos: Todos os critérios de aceitação foram cumpridos.
+
+- Documentação Atualizada: A documentação foi atualizada.
+
+- Aprovação do Product Owner: Cada história foi testada e aprovada pelo Product Owner.
+
+- Código no Repositório Principal: O código foi incorporado à branch principal do projeto.
 
 ---
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
-| Sprint          |    Período    | Relatório          |
-| --------------- | :-----------: | ------------------ |
-| ⌛ **SPRINT 1** | 08/09 - 28/09 | Em progresso       |
-| 🔒 **SPRINT 2** | 06/10 - 26/10 | Ainda não iniciada |
-| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada |
+| Sprint          |    Período    | Relatório                                 |
+| --------------- | :-----------: | ----------------------------------------- |
+| ✔️ **SPRINT 1** | 08/09 - 28/09 | [Concluída](docs/doc-sprints/sprint-1.md) |
+| ✔️ **SPRINT 2** | 06/10 - 26/10 | [Concluída](docs/doc-sprints/sprint-2.md) |
+| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada                        |
 
 ## ✨ Protótipo da Aplicação <a id="prototipo"></a>
 
@@ -133,7 +118,13 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 
 ### Sprint 1:
 
-https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
+https://github.com/user-attachments/assets/a9756ad1-3aa7-4b0e-b4b7-896c7c4366f2
+
+---
+
+### Sprint 2:
+
+https://github.com/user-attachments/assets/a9756ad1-3aa7-4b0e-b4b7-896c7c4366f2
 
 ---
 
@@ -164,6 +155,10 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 
 </div>
 
+## 🌊 Roadmap de Entregas <a id="roadmap"></a>
+
+![1° Sprint -  API 4 SEMESTRE- AdaTech](https://github.com/user-attachments/assets/a02012d8-45db-4135-a58c-c8688cb588b2)
+
 ## 📖 Guia de Documentações <a id="manual"></a>
 
 [Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](docs/manuais)
@@ -184,7 +179,6 @@ https://github.com/user-attachments/assets/d0400ddc-ffbd-4138-b4df-976e3ecbf18e
 | Maria Fernanda Hansen |   Dev Team    |     <a href="https://github.com/Madhs31"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      |   <a href="https://www.linkedin.com/in/maria-fernanda-diniz-0724122ba/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>    |
 | Ramon Amorim da Silva |   Dev Team    |    <a href="https://github.com/ramonads42"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                   <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                   |
 |     Renan Tomasi      |   Dev Team    |    <a href="https://github.com/renan21-tg"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
-|     Vitor Ribeiro     |   Dev Team    |  <a href="https://github.com/ribeirovitor04"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                                 <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                                 |
 
 </div>
 
