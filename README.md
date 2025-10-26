@@ -124,7 +124,7 @@ https://github.com/user-attachments/assets/a9756ad1-3aa7-4b0e-b4b7-896c7c4366f2
 
 ### Sprint 2:
 
-https://github.com/user-attachments/assets/a9756ad1-3aa7-4b0e-b4b7-896c7c4366f2
+https://github.com/user-attachments/assets/30c215c2-ef31-4997-841f-0ba3d7e6866e
 
 ---
 
