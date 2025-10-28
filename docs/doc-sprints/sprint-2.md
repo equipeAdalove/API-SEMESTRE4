@@ -86,7 +86,7 @@ Construir a estrutura de aplicação ao redor do Agente de IA local, implementa�
 
 <a id="burndown"></a>
 
-<img src="docs/assets/burndown/burndown-sprint1.png">
+<img src="docs/assets/burndown/burndown-sprint2.png">
 
 <br>
 
@@ -94,7 +94,7 @@ Construir a estrutura de aplicação ao redor do Agente de IA local, implementa�
 
 <a id="demo"></a>
 
-https://github.com/user-attachments/assets/a556c571-094c-4e05-9870-b932f6f5f3b1
+https://github.com/user-attachments/assets/30c215c2-ef31-4997-841f-0ba3d7e6866e
 
 <br>
 
