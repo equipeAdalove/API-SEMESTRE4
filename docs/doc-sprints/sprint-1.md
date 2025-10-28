@@ -87,7 +87,7 @@ Entregar artefatos que definam o fluxo de navegação e usabilidade da aplicaç�
 
 <a id="burndown"></a>
 
-<img src="docs/assets/burndown/burndown-sprint1.png">
+<img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/main/docs/assets/burndown/burndown-sprint1.png">
 
 <br>
 

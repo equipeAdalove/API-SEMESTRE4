@@ -86,7 +86,7 @@ Construir a estrutura de aplicação ao redor do Agente de IA local, implementa�
 
 <a id="burndown"></a>
 
-<img src="docs/assets/burndown/burndown-sprint2.png">
+<img src="https://github.com/equipeAdalove/API-SEMESTRE4/blob/main/docs/assets/burndown/burndown-sprint2.png">
 
 <br>
 
