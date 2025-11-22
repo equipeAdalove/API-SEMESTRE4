@@ -54,8 +54,8 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 |  3   |    Alta    |                        Como usuário final, quero gerar um arquivo Excel com os dados finais, para submeter à receita federal.                        |      3       |   1    |   ✔️   |
 |  4   |   Média    |   Como usuário final, quero ter um formulário, para revisar e corrigir as informações extraídas antes de finalizar o processo, para evitar falhas    |      8       |   2    |   ✔️   |
 |  5   |   Média    |               Como usuário final, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.               |      5       |   2    |   ✔️   |
-|  6   |   Média    | Como usuário final, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      5       |   3    |   🔒   |
-|  7   |   Baixa    |                  Como usuário final, quero ter acesso à documentação completa do sistema para facilitar o uso e a instalação dele.                   |      3       |   3    |   🔒   |
+|  6   |   Média    | Como usuário final, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      5       |   3    |   ✔️   |
+|  7   |   Baixa    |                  Como usuário final, quero ter acesso à documentação completa do sistema para facilitar o uso e a instalação dele.                   |      3       |   3    |   ✔️   |
 
 ## 🚣 DoR - Definition of Ready <a id="dor"></a>
 
@@ -91,7 +91,7 @@ Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe 
 | --------------- | :-----------: | ----------------------------------------- |
 | ✔️ **SPRINT 1** | 08/09 - 28/09 | [Concluída](docs/doc-sprints/sprint-1.md) |
 | ✔️ **SPRINT 2** | 06/10 - 26/10 | [Concluída](docs/doc-sprints/sprint-2.md) |
-| 🔒 **SPRINT 3** | 03/11 - 23/11 | Ainda não iniciada                        |
+| ✔️ **SPRINT 3** | 03/11 - 23/11 | [Concluída](docs/doc-sprints/sprint-3.md) |
 
 ## ✨ Protótipo da Aplicação <a id="prototipo"></a>
 
@@ -125,6 +125,10 @@ https://github.com/user-attachments/assets/a9756ad1-3aa7-4b0e-b4b7-896c7c4366f2
 ### Sprint 2:
 
 https://github.com/user-attachments/assets/30c215c2-ef31-4997-841f-0ba3d7e6866e
+
+---
+
+### Sprint 3:
 
 ---
 
