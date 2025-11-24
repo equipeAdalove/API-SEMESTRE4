@@ -130,6 +130,8 @@ https://github.com/user-attachments/assets/30c215c2-ef31-4997-841f-0ba3d7e6866e
 
 ### Sprint 3:
 
+https://www.youtube.com/watch?v=LrjXhLGhkD0
+
 ---
 
 ## 🚢 Tecnologias
