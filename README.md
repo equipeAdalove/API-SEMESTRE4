@@ -25,9 +25,11 @@
 
 </div>
 
-<div align="center">
-      <h3 align="center"> Status do Projeto: Em andamento! ⌛ </h2>
-</div>
+<br>
+
+> Status do Projeto: Concluído!  ✔️
+
+<br>
 
 ## 🏁 Desafio: <a id="desafio"></a>
 
